@@ -33,7 +33,7 @@ if my_dataframe:
                             )
 
             st.success('Someone clicked the button', icon = '👍')
-        except
+        except:
             st.write('Something went wrong')
 
 else
